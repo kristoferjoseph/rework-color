@@ -17,7 +17,8 @@ describe('rework-color', function() {
             .use(color())
             .toString(),
             expected = read('test/expected/lighten.expected.css', 'utf8')
-                .toString().trim();
+                .toString()
+                .trim();
 
         assert.equal(actual, expected, 'colors should match expected lighten result');
     });
@@ -28,7 +29,8 @@ describe('rework-color', function() {
             .use(color())
             .toString(),
             expected = read('test/expected/darken.expected.css', 'utf8')
-                .toString().trim();
+                .toString()
+                .trim();
 
         assert.equal(actual, expected, 'colors should match expected darken result');
     });
