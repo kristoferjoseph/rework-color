@@ -7,9 +7,7 @@ Augmented color manipulations for
 Installation
 ------------
 
-```
-npm install rework-color
-```
+`npm install rework-color`
 
 Usage
 -----
