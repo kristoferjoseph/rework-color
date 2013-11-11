@@ -1,0 +1,34 @@
+{
+  "name": "rework-color",
+  "version": "0.0.0",
+  "description": "Augmented color manipulation functions for rework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kristoferjoseph/rework-color.git"
+  },
+  "keywords": [
+    "rework",
+    "color"
+  ],
+  "author": "@dam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/rework-color/issues"
+  },
+  "devDependencies": {
+    "grunt-simple-mocha": "~0.4.0",
+    "mkdirp": "~0.3.5",
+    "rework-vars": "~1.0.1"
+  },
+  "dependencies": {
+    "color": "~0.4.4",
+    "rework": "~0.18.3"
+  }
+}

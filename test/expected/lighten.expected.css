@@ -1,0 +1,7 @@
+:root {
+  var-blue: #4055BF;
+}
+
+body {
+  background: hsla(230, 50%, 75%, 1);
+}

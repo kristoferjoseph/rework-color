@@ -1,0 +1,8 @@
+:root {
+    var-blue: #4055BF;
+}
+
+
+body {
+    background: darken(var(blue), 0.5);
+}
