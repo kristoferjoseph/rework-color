@@ -19,7 +19,7 @@ module.exports = function() {
                   g: 255 - tmp.green(),
                   b: 255 - tmp.blue(),
                   a: tmp.alpha()
-                }).hslaString();
+                }).hexString();
         }
     });
 };
