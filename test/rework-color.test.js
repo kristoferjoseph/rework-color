@@ -34,4 +34,15 @@ describe('rework-color', function() {
 
         assert.equal(actual, expected, 'colors should match expected darken result');
     });
+
+    it('should invert', function() {
+        var actual = rework(read('test/fixtures/invert.fixture.css', 'utf8'))
+            .use(color())
+            .toString(),
+            expected = read('test/expected/invert.expected.css', 'utf8')
+                .toString()
+                .trim();
+
+        assert.equal(actual, expected, 'colors should match invert result');
+    });
 });
