@@ -1,6 +1,6 @@
 {
   "name": "rework-color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Augmented color manipulation functions for rework",
   "main": "index.js",
   "directories": {
