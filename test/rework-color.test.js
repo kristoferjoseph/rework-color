@@ -45,4 +45,15 @@ describe('rework-color', function() {
 
         assert.equal(actual, expected, 'colors should match invert result');
     });
+
+    it('should do correct hsla conversion', function() {
+        var actual = rework(read('test/fixtures/hsla.fixture.css', 'utf8'))
+            .use(color())
+            .toString(),
+            expected = read('test/expected/hsla.expected.css', 'utf8')
+                .toString()
+                .trim();
+
+        assert.equal(actual, expected, 'colors should match hsla conversion result');
+    });
 });
