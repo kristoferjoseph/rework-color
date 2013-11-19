@@ -1,0 +1,4 @@
+body {
+  color: hslAlpha(#000, 0.32);
+  background-color: hslAlpha(#fff, 0.25);
+}

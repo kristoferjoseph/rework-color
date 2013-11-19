@@ -15,11 +15,15 @@ module.exports = function() {
         invert: function(color) {
             var tmp = Color(color);
             return Color({
-                  r: 255 - tmp.red(),
-                  g: 255 - tmp.green(),
-                  b: 255 - tmp.blue(),
-                  a: tmp.alpha()
-                }).hexString();
+                r: 255 - tmp.red(),
+                g: 255 - tmp.green(),
+                b: 255 - tmp.blue(),
+                a: tmp.alpha()
+            }).hexString();
+        },
+
+        hslAlpha: function(color, alpha) {
+            return Color(color).alpha(alpha).hslaString();
         }
     });
 };
